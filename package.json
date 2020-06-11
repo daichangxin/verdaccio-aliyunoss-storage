@@ -36,8 +36,5 @@
   },
   "scripts": {
     "build": "babel src/ --out-dir lib --extensions \".ts,.tsx\""
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
