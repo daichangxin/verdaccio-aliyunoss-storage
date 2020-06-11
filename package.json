@@ -1,0 +1,42 @@
+{
+  "name": "verdaccio-aliyunoss-storage",
+  "version": "1.0.0",
+  "description": "Aliyun OSS storage implementation for Verdaccio",
+  "keywords": [
+    "verdaccio",
+    "plugin",
+    "storage",
+    "aliyunoss"
+  ],
+  "author": "daichangxin <daichangxin@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git",
+    "directory": "plugins/aliyunoss-storage"
+  },
+  "bugs": {
+    "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git/issues"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "@verdaccio/commons-api": "^9.6.1",
+    "@verdaccio/streams": "^9.6.1",
+    "ali-oss": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/ali-oss": "^6.0.5",
+    "@verdaccio/babel-preset": "^9.6.1",
+    "@verdaccio/eslint-config": "^9.3.2",
+    "@verdaccio/types": "^9.5.0",
+    "recursive-readdir": "2.2.2"
+  },
+  "scripts": {
+    "build": "babel src/ --out-dir lib --extensions \".ts,.tsx\""
+  }
+}
