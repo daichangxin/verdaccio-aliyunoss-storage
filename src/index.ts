@@ -80,33 +80,6 @@ export default class AliyunOSSDatabase implements IPluginStorage<AliConfig> {
             }).catch(err => {
                 this.logger.debug({ err }, 'aliyunoss: [_fetchPackageInfo] error: @{err}');
             });
-        // return new Promise((resolve): void => {
-        //   this.aliyunOSS.headObject(
-        //     {
-        //       Bucket: bucket,
-        //       Key: `${keyPrefix + packageName}/package.json`,
-        //     },
-        //     (err, response) => {
-        //       if (err) {
-        //         this.logger.debug({ err }, 'aliyunoss: [_fetchPackageInfo] error: @{err}');
-        //         return resolve();
-        //       }
-        //       if (response.LastModified) {
-        //         const { LastModified } = response;
-        //         this.logger.trace({ LastModified }, 'aliyunoss: [_fetchPackageInfo] LastModified: @{LastModified}');
-        //         return onPackage(
-        //           {
-        //             name: packageName,
-        //             path: packageName,
-        //             time: LastModified.getTime(),
-        //           },
-        //           resolve
-        //         );
-        //       }
-        //       resolve();
-        //     }
-        //   );
-        // });
     }
 
     remove(name: string, callback: Callback): void {
