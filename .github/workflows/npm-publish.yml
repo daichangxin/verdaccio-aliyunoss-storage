@@ -37,8 +37,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: |
-          git pull -f
           npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
+          git pull -f
           npm config list
           npm publish
         env:
@@ -55,6 +55,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: |
+          npm config set //npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN
           git pull -f
           npm publish
         env:

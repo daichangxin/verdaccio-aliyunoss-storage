@@ -20,13 +20,9 @@
     "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git/issues"
   },
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "files": [
     "lib/"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "@verdaccio/commons-api": "^9.6.1",
     "@verdaccio/streams": "^9.6.1",
