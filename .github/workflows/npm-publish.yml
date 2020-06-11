@@ -57,6 +57,7 @@ jobs:
       - run: |
           npm config set //npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN
           git pull -f
+          npm login --registry=https://npm.pkg.github.com/
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}

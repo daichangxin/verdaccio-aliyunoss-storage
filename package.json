@@ -13,8 +13,7 @@
   "homepage": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git",
-    "directory": "plugins/aliyunoss-storage"
+    "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git"
   },
   "bugs": {
     "url": "https://github.com/daichangxin/verdaccio-aliyunoss-storage.git/issues"
@@ -37,5 +36,8 @@
   },
   "scripts": {
     "build": "babel src/ --out-dir lib --extensions \".ts,.tsx\""
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
