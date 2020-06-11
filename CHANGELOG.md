@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.5 (2020-06-11)
+
+
+### Bug Fixes
+
+* gpr build error ([20a4879](https://github.com/daichangxin/verdaccio-aliyunoss-storage/commit/20a48799568dcf37333f4816ac2dc2650a0a523a))
+
 ### 1.0.4 (2020-06-11)
 
 
