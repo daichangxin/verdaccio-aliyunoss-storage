@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.9 (2020-10-27)
+
+
+### Bug Fixes
+
+* build ([7b51133](https://github.com/daichangxin/verdaccio-aliyunoss-storage/commit/7b5113366d06e0a0596dfd28e20da2d737c81f85))
+
 ### 1.0.8 (2020-09-29)
 
 ### 1.0.7 (2020-06-29)
