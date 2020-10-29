@@ -3,7 +3,7 @@
 ### Usage
 
 ```
-npm install verdaccio-aliyunoss-storage
+npm install verdaccio-aliyunoss-storage -g
 ```
 
 In your verdaccio config, configure
